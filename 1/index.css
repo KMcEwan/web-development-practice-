@@ -1,0 +1,61 @@
+footer
+{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+header
+{
+    position: relative;
+    text-align: center;
+    font-size: 5vh;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.text
+{
+    position: relative;
+    font-family: 'Courier New', Courier, monospace;    
+}
+
+#flexbox-container
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+#flexbox-container-mid
+{
+    display: flex;
+    background-color: blanchedalmond;
+}
+
+#list
+{  
+    flex-basis: 10vw;
+    background-color: rebeccapurple;
+    padding: 0;
+}
+
+#list ul
+{
+    padding: 0;
+}
+
+.main-text
+{
+    width: 60vw;
+    padding-left: 2vh;
+    padding-right: 2vh;
+}
+
+#image img
+{
+    /* width: 100%; */
+    flex-basis: 30vh;
+    flex: 3;
+    /* padding-left: 10vh; */
+}
