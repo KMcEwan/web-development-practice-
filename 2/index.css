@@ -1,0 +1,61 @@
+#nav-bar
+{
+    display: flex;
+    flex-direction: row;    
+    height: 80px;
+    border: 2px solid black;
+}
+
+#nav-bar a
+{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main-introduction
+{
+    display: flex;
+    flex-direction: column;
+    background-color: bisque;
+}
+
+#main-introduction h1
+{
+    padding-left: 4vh;
+}
+
+#main-introduction-about
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+#main-introduction-about p
+{
+    padding-right: 2vh;
+    flex-shrink: 1;
+}
+
+#main-introduction-about img
+{
+    flex-shrink: 3;
+    object-fit: contain;
+}
+
+#screenshots
+{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding:1vh;
+}
+
+footer
+{
+    display: flex;
+    flex-direction: column;
+}
